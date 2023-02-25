@@ -10,7 +10,7 @@
             "request": "launch",
             "module": "src",
             "justMyCode": true,
-            "args": [], // Add arguments to modify behaviors
+            "args": [] // Add arguments to modify behaviors
         }
     ]
 }
