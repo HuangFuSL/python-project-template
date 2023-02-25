@@ -22,6 +22,15 @@ jobs:
         with:
           poetry-version: 1.3.2
 
+      - name: Create lock file
+        run: |
+          poetry lock
+
+      - uses: actions/cache@v2
+        with:
+          path: ~/.cache/pypoetry/virtualenvs
+          key: ${{ runner.os }}-poetry-${{ hashFiles('poetry.lock') }}
+
       - name: Install dependencies
         run: |
           poetry install --with dev --no-root
