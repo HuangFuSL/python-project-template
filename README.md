@@ -7,6 +7,7 @@ A project template for Python projects. Inspired by [xinntao/ProjectTemplate-Pyt
 -   [Poetry](https://github.com/python-poetry/poetry) to manage dependencies.
 -   [autopep8](https://github.com/hhatto/autopep8), [isort](https://github.com/PyCQA/isort), [pylint](https://github.com/hhatto/autopep8) and [pre-commit](https://github.com/pre-commit/pre-commit) for automatic code style check.
 -   [pytest](https://github.com/pytest-dev/pytest) for unit tests.
+-   [poethepoet](https://github.com/nat-n/poethepoet) for custom command-line tasks.
 -   Licensed under MIT license.
 
 ## Usage
